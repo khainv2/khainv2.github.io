@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "894902d325a1dbea719d22f18eac53bc",
+  "assets/AssetManifest.json": "a31c123007cee6aaf5674049719c1bfb",
 "assets/assets/design_course/design_course.png": "056917dfdf670a55361f3fde8efbfd8e",
 "assets/assets/design_course/interFace1.png": "cd8a44e8d0af949a031c0ea83958d623",
 "assets/assets/design_course/interFace2.png": "c101d35e907f00f40900fca7f9c4c69e",
@@ -14,9 +14,9 @@ const RESOURCES = {
 "assets/assets/fonts/Roboto-Bold.ttf": "e07df86cef2e721115583d61d1fb68a6",
 "assets/assets/fonts/Roboto-Medium.ttf": "58aef543c97bbaf6a9896e8484456d98",
 "assets/assets/fonts/Roboto-Regular.ttf": "11eabca2251325cfc5589c9c6fb57b46",
-"assets/assets/images/background_login.jpg": "7ab49e7d6dffd7753dc7c2811053a2a4",
 "assets/assets/images/feedbackImage.png": "5f8e9064f54cf51a70fee2da78a5b014",
 "assets/assets/images/helpImage.png": "2bff0fc93675d32f89db50f2d3e2a5b1",
+"assets/assets/images/ic_cabinet.png": "34e565039e36c0d82262ca1bee9d4163",
 "assets/assets/images/ic_humidity.png": "44e156a5f1ac4713aa9fc9e9345bb014",
 "assets/assets/images/ic_light_off.png": "c77683916969e02989a8adaa2afb6655",
 "assets/assets/images/ic_light_on.png": "037699db8193a16c63af70af9e4c9add",
@@ -33,7 +33,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "0dc3cf3ff5fb02e250ad76a47528238f",
 "/": "0dc3cf3ff5fb02e250ad76a47528238f",
-"main.dart.js": "adf5f117348ab13b4fa716eff8483f57",
+"main.dart.js": "2301ae097e8c2f719ea97cc9979679a2",
 "manifest.json": "567275e1653b0093490b541b31faea11"
 };
 
