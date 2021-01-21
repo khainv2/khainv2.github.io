@@ -1,6 +1,6 @@
 {
-    "name": "emclient",
-    "short_name": "emclient",
+    "name": "alcwireless",
+    "short_name": "alcwireless",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
