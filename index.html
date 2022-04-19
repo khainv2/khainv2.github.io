@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -20,26 +21,59 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="alcwireless">
+  <meta name="apple-mobile-web-app-title" content="admin">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
-  <title>alcwireless</title>
+  <title>admin</title>
   <link rel="manifest" href="manifest.json">
+  <!-- Styling for loading indicator -->
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #212332;
+    }
+
+    .indicator {
+      width: 10vw;
+    }
+  </style>
+
 </head>
-<body>
+
+<body style="overflow: hidden">
+  <!-- Loading Indicator -->
+  <div id="loading_container" class="container">
+    <img src="./assets/loading.gif" alt="loading indicator" class="indicator">
+  </div>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=1253052502');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3046960633');
       });
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
+  <!-- Removes the loading indicator after 10 seconds -->
+  <script>
+    window.onload = function () {
+      setTimeout(function () {
+        var loadingIndicator = document.getElementById("loading_container");
+        if (loadingIndicator) {
+          loadingIndicator.remove();
+        }
+      }, 10000)
+    }
+  </script>
 </body>
+
 </html>
